@@ -42,7 +42,7 @@ const Portfolio = () => {
             return (
             <div key={work.id} className='box-works'>
               <div>
-                <img src={"../../../public/images/" + work.img} alt="" />
+                <img src={ "../../../public/images/" + work.img} alt="" />
               </div>
               <div className='work-titles'>
                 <h2>{work.name}</h2>
