@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Portfolio.css"
+import workImg from "../../../public/images/Book-Store-Courses-Home.png"
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
@@ -42,7 +43,7 @@ const Portfolio = () => {
             return (
             <div key={work.id} className='box-works'>
               <div>
-                <img src={ "../../../public/images/" + work.img} alt="" />
+                <img src={workImg} alt="" />
               </div>
               <div className='work-titles'>
                 <h2>{work.name}</h2>
