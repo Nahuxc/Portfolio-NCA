@@ -1,0 +1,71 @@
+.sect-portfolio{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.sect-portfolio .titlePort{
+    box-shadow: 0px 5px 0px   rgb(255, 0, 0);
+    line-height: 2;
+}
+
+.portfolio{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.box-works{
+    background-color: #1e2123;
+    width: 30%;
+    margin: 25px 15px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px   rgb(0, 0, 0);
+    animation: sliderRight 1s ease forwards;
+    transition: all 300ms;
+}
+
+.box-works img{
+    width: 100%;
+}
+
+.box-works .work-titles{
+    margin-bottom: 20px;
+}
+
+.box-works .work-icons{
+    margin-top: 20px;
+}
+
+
+.box-works .work-icons .linkedin-icon,
+.box-works .work-icons .github-icon{
+    margin: 0px 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.box-works a button{
+    text-decoration: none;
+    background-color:rgb(255, 0, 0);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    cursor: pointer;
+    animation: sliderBottom 1s ease;
+    transition: all 300ms;
+}

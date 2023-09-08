@@ -1,0 +1,59 @@
+.interfaz-nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 20px 10px;
+    background: linear-gradient(to right, #000000, #222);
+    z-index: 1;
+}
+
+
+.active-nav{
+    background-color: rgb(255, 255, 255);
+}
+
+.interfaz-nav .logo{
+    animation: sliderRight 1s ease forwards;
+}
+
+.interfaz-nav .logo,
+.interfaz-nav .box-interfaz{
+    flex: 1 1 auto;
+}
+
+.box-interfaz {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    animation: sliderTop 1s ease forwards;
+}
+.box-interfaz a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 15px;
+    box-shadow: 0px 3px 0px   rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: all 400ms;
+}
+
+.box-interfaz .active{
+    background-color:rgb(249, 28, 28);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgb(240, 119, 119);
+    text-shadow: none;
+}
+.box-interfaz a:hover{
+    background-color:rgb(255, 112, 112);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgb(249, 135, 135);
+    text-shadow: none;
+}
+

@@ -1,0 +1,135 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #000000, #222);
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 50px 100px;
+    min-height: 650px;
+}
+
+.titleSkills{
+    color: white;
+    text-align: center;
+    margin: 30px  0px;
+    font-size: 40px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 5px 0px   rgb(255, 0, 0);
+}
+
+.titleSkills span{
+    font-size: 40px;
+    color: rgb(255, 90, 90);
+    text-shadow: 0px 5px 0px rgb(0, 0, 0), 0px 0px 5px rgb(255, 0, 0);
+}
+
+.skill-sect{
+    background-color: hsla(240, 2%, 9%, 0.352);
+    margin: 10px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px   rgb(0, 0, 0);
+}
+
+.skll-sect-habilities{
+    background-color: hsla(240, 2%, 9%, 0.511);
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 2px   rgb(25, 25, 25);
+}
+
+.skill-box{
+    display: flex;
+    background-color: #2d333a;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px   rgb(255, 255, 255);
+    animation: sliderRight 1s ease forwards;
+    transition: all 300ms;
+}
+
+.skill-box:hover{
+    background-color: #feabab;
+    box-shadow: 0px 0px 5px   rgb(255, 93, 93);
+}
+
+.skill-box img{
+    width: 55%;
+}
+
+
+
+.fahtml5, .fajs, .fabootstrap, .facss3,  .fareact, .fasass, .fagit  , .fanode, .fapython, .faFigma{
+    font-size: 4em;
+}
+
+
+.faFigma{
+    font-size: 3em;
+    background-color: #222;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fahtml5{
+    font-size: 4em;
+    color: rgb(255, 55, 0);
+}
+
+.fajs{
+    color: rgb(249, 255, 69);
+}
+
+.fabootstrap{
+    color: rgb(86, 3, 134);
+}
+
+.facss3{
+    color: rgb(0, 88, 219);
+}
+
+.fareact{
+    color: rgb(77, 175, 255);
+}
+
+.fasass{
+    padding: 8px 0px;
+    font-size: 3em;
+    color: rgb(255, 80, 243);
+}
+
+.fanode{
+    color: #23b52d;
+}
+
+.fapython{
+    color: white;
+}
+
+.fagit{
+    color: #e61313;
+}
+
+
+.studios{
+    display: flex;
+    color: white;
+}
+
+.studios-sect{
+    background-color: #2d333a;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px   rgb(255, 255, 255);
+}
