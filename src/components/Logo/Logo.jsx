@@ -5,9 +5,9 @@ import "./Logo.css"
 const Logo = () => {
   return (
     <div className='logo'>
-          <span className='span1'>N</span>
-          <span className='span2'>C</span>
-          <span className='span3'>A</span>
+          <p className='span1'>N</p>
+          <p className='span2'>C</p>
+          <p className='span3'>A</p>
     </div>
   )
 }

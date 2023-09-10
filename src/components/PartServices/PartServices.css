@@ -7,37 +7,37 @@
     min-height: 450px;
 }
 
-.sect-services .titleServices{
-    box-shadow: 0px 5px 0px   rgb(255, 0, 0);
+.sect-services h2{
     line-height: 2;
-}
-
-.services{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    width: 100%;
-    
+    box-shadow:  0px 5px 0px red;
 }
 
 .box-services{
-    background-color: #1e2123;
-    width: 30%;
-    margin: 25px 15px;
+    display: flex;
+    margin: 25px 80px;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
+}
+
+
+.box-services-titles{
+    background-color: #1e2123;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 10px;
     box-shadow: 0px 0px 5px   rgb(0, 0, 0);
     animation: sliderRight 1s ease forwards;
     transition: all 300ms;
 }
 
-.box-services .services-icons .linkedin-icon,
-.box-services .services-icons .github-icon{
-    margin: 0px 10px;
+.box-services-titles .iconServices{
+    margin: 30px 0px;
     font-size: 35px;
     text-decoration: none;
     color: white;
+}
+
+
+.box-services-titles p{
+    margin: 20px;
 }

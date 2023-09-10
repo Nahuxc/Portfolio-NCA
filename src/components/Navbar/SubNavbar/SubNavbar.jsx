@@ -1,9 +1,9 @@
 import {useState} from 'react'
 import "./SubNavbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faCode, faInbox, faHouseLaptop, faEnvelopesBulk } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faCode, faInbox, faHouseLaptop, faEnvelopesBulk, faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
-faHome
+
 
 const SubNavbar = () => {
 
@@ -25,9 +25,9 @@ const SubNavbar = () => {
 
   return (
     <div>
-        <button onClick={()=> deploysideBar()} className='btn-sideBar'>
+        <button onClick={()=> deploysideBar()} id='box-interfaz-btn-submenu'>
             {
-                deploy === false ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-xmark"></i>
+                deploy === false ? <FontAwesomeIcon icon={faBars}/> : <FontAwesomeIcon icon={faXmark}/>
             }
         </button>
         <div className='sideBar'>
