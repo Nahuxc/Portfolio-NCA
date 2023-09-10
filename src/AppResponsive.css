@@ -8,7 +8,6 @@
        
     }
     .interfaz-nav .box-interfaz .active{
-        
         box-shadow: none;
         font-family: sans-serif;
        
@@ -88,6 +87,29 @@
 
     .skll-sect-habilities .skill-box img{
         width: 90%;
+    }
+
+
+    .not-found-box .not-found .error{
+        font-size: 60px;
+    }
+    
+    
+    .not-found-box .not-found span{
+        font-size: 40px;
+    }
+    
+    .not-found-box .error span{
+        font-size: 60px;
+    }
+
+    .not-found h2{
+        font-size: 15px;
+    }
+
+    .btn-back{
+        width: 100%;
+        font-size: 15px;
     }
 
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, BrowserRouter, NavLink, Navigate} from "react-router-dom"
+import {Routes, Route, BrowserRouter} from "react-router-dom"
 import Navbar from '../components/Navbar/Navbar'
 import Home from '../components/Home/Home'
 import Skills from "../components/Skills/Skills"
@@ -18,13 +18,13 @@ const Routers = () => {
       {/* CONTENIDO CENTRAL  */}
       <section className='content'>
         <Routes>
-            <Route path='/' element={<Navigate to="/Home"/>} />
+            <Route path='/' element={<Home/>} />
             <Route path='/Home' element={<Home/>} />
             <Route path='/Skills' element={<Skills/>} />
             <Route path='/Portfolio' element={<Portfolio/>} />
             <Route path='/Services' element={<PartServices/>} />
             <Route path='/Contact' element={<Contact/>} />
-              <Route path='*' element={<NotFound/>} />
+            <Route path='*' element={<NotFound/>} />
         </Routes>
       </section>
       {/* FOOTER  */}
