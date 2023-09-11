@@ -19,18 +19,18 @@ const Portfolio = () => {
     {
         "id": 2,
         "name": "E-commerce Nike Project",
-        "url": "https://nahuxc.github.io/Book-Store-cursos/",
+        "url": "https://ecommercenike.netlify.app/",
         "img":"E-commerce-Nike.png",
         "tecnologies" : "JS, React, Node, FireBase",
-        "categorias": "Aplicaciones"
+        "categorias": "Aplicacion"
     },
     {
         "id": 3,
         "name": "Pelicoms",
-        "url": "https://nahuxc.github.io/Book-Store-cursos/",
+        "url": "https://peliscoms.netlify.app/",
         "img":"PeliComs.png",
         "tecnologies" : "JS, React",
-        "categorias": "Aplicaciones"
+        "categorias": "Aplicacion"
     }
 ]
 
@@ -52,7 +52,7 @@ const Portfolio = () => {
               </div>
                 <Link target='_blank' to={work.url} ><button>Visitar Web</button></Link>
                 <div className='work-icons'>
-                   <Link target='_blank' to={"https://github.com/Nahuxc"} ><FontAwesomeIcon className='github-icon' icon={faGithub} /></Link>
+                  <Link target='_blank' to={"https://github.com/Nahuxc"} ><FontAwesomeIcon className='github-icon' icon={faGithub} /></Link>
                   <Link target='_blank' to={"https://www.linkedin.com/in/nahuel-coronel-09a846229/"} ><FontAwesomeIcon className='linkedin-icon' icon={faLinkedin} /></Link> 
                 </div>
             </div>

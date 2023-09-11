@@ -1,5 +1,4 @@
 import React from 'react'
-import photo from "../assets/img/perfil.png"
 import "./Home.css"
 
 const Home = () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
@@ -9,8 +10,8 @@ const Footer = () => {
     <footer className='footer'>
       <div>
         <ul className='contact-info'>
-          <li><FontAwesomeIcon className='linkedin' icon={faLinkedin} /></li>
-          <li><FontAwesomeIcon className='github' icon={faGithub} /></li>
+          <li><Link target='_blank' to={"https://github.com/Nahuxc"} ><FontAwesomeIcon className='github-icon' icon={faGithub} /></Link></li>
+          <li><Link target='_blank' to={"https://www.linkedin.com/in/nahuel-coronel-09a846229/"} ><FontAwesomeIcon className='linkedin-icon' icon={faLinkedin} /></Link></li>
           <li> <FontAwesomeIcon className='envelope' icon={faEnvelope} /> </li>
           <li><FontAwesomeIcon className='faphone' icon={faPhone} /></li>
         </ul>
