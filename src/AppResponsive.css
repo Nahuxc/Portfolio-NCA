@@ -70,6 +70,10 @@
 
 
 
+    .content .blog{
+        padding: 50px;
+    }
+
     .blog .studios{
         flex-direction: column;
         align-items: center;
@@ -83,7 +87,6 @@
 
     .skll-sect-habilities .skill-box{
         width: 100%;
-        padding: 50px;
     }
 
     .skll-sect-habilities .skill-box img{
@@ -115,7 +118,7 @@
 
 
     .sect-services .box-services {
-        margin: 25px 35px;
+        margin: 25px 40px;
     }
 
     .box-services .box-services-titles{
@@ -125,13 +128,17 @@
 
 }
 
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1650px){
     .content .box-home{
         min-height: 450px;
     }
 
     .content .sect-services{
         min-height: 450px;
+    }
+
+    .skll-sect-habilities .skill-box img{
+        width: 40%;
     }
 }
 
@@ -143,5 +150,9 @@
 
     .content .sect-services{
         min-height: 550px;
+    }
+
+    .skll-sect-habilities .skill-box img{
+        width: 55%;
     }
 }

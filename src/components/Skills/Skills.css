@@ -65,12 +65,12 @@
 }
 
 .skill-box img{
-    width: 55%;
+    width: 30%;
 }
 
 
 
-.fahtml5, .fajs, .fabootstrap, .facss3,  .fareact, .fasass, .fagit  , .fanode, .fapython, .faFigma{
+.fahtml5, .fajs, .fabootstrap, .facss3,  .fareact, .fasass, .fagit  , .fanode, .fapython, .faFigma, .faphp, .faWordpress{
     font-size: 4em;
 }
 
@@ -119,6 +119,14 @@
 
 .fagit{
     color: #e61313;
+}
+
+.faphp{
+    color: #6e88a9;
+}
+
+.faWordpress{
+    color: rgb(64, 126, 241);
 }
 
 

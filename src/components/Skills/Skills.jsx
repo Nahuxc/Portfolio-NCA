@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faJs, faCss3, faFigma, faBootstrap, faReact, faSass, faGit , faNodeJs, faPython} from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faJs, faCss3, faFigma, faBootstrap, faReact, faSass, faGit , faNodeJs, faPython, faPhp, faWordpress} from '@fortawesome/free-brands-svg-icons'
 import iconTypescript from "../assets/img/typescript.png"
 import iconMysql from "../assets/img/mysql.png"
 import iconMongodb from "../assets/img/mongodb.svg"
@@ -53,6 +53,12 @@ const Skills = () => {
               </div>
               <div className='skill-box'>
                 <FontAwesomeIcon className='fapython' icon={faPython} />
+              </div>
+              <div className='skill-box'>
+                <FontAwesomeIcon className='faphp' icon={faPhp} />
+              </div>
+              <div className='skill-box'>
+                <FontAwesomeIcon className='faWordpress' icon={faWordpress} />
               </div>
               <div className='skill-box'>
                 <FontAwesomeIcon className='fanode' icon={faNodeJs} />
