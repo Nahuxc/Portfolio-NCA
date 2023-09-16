@@ -12,16 +12,19 @@ const Skills = () => {
     <div className='blog'>
       <div className='studios'>
         <div className='studios-sect'>
-          <h2>titulo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores.</p>
+          <h2> <span>University</span> | national technological university | UTN</h2>
+          <p>ubication: buenos aires </p>
+          <p>Estudio Ingenieria en sistemas</p>
         </div>
         <div className='studios-sect'>
-          <h2>titulo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores.</p>
+          <h2> <span>Secondary School</span> | Instituto del libertador</h2>
+          <p>ubication: buenos aires </p>
+          <p>Estudio economia y administracion </p>
         </div>
         <div className='studios-sect'>
-          <h2>titulo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores.</p>
+          <h2> <span>CoderHouse Courses</span> | Front End development</h2>
+          <p>ubicacion: buenos aires</p>
+          <p>maquetacion web, javascript, react js</p>
         </div>
       </div>
         <div className='skill-sect'>

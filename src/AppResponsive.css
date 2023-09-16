@@ -83,6 +83,7 @@
 
     .skll-sect-habilities .skill-box{
         width: 100%;
+        padding: 50px;
     }
 
     .skll-sect-habilities .skill-box img{
@@ -113,9 +114,34 @@
     }
 
 
+    .sect-services .box-services {
+        margin: 25px 35px;
+    }
 
     .box-services .box-services-titles{
         width: 100%;
+        padding: 50px;
     }
 
+}
+
+@media only screen and (max-width: 1600px){
+    .content .box-home{
+        min-height: 450px;
+    }
+
+    .content .sect-services{
+        min-height: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px){
+    .content .box-home{
+        min-height: 550px;
+    }
+
+    .content .sect-services{
+        min-height: 550px;
+    }
 }
