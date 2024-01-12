@@ -2,6 +2,7 @@
     position: fixed;
     left: 38px;
     top: 1000px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     z-index: 2;
     transition: all 500ms;
 }
@@ -20,6 +21,7 @@
 
 #box-interfaz-btn-submenu{
     background: rgba(185, 185, 185, 0.763);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     border-radius: 5px;
     color: rgb(0, 0, 0);
     border: none;
