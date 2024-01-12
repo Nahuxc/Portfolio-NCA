@@ -4,6 +4,10 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <div className='contact-form'>
+      <div className='information'>
+         <h2>Contactame</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dicta.</p>
+      </div>
       <div className='contact-form-content'>
         <form action="#" method="post">
           <div>
